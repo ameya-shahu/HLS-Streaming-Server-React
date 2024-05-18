@@ -25,7 +25,9 @@ const Home = () => {
         <Topbar />
         <Container className='mt-5'>
             <Row className="justify-content-md-center">
-                <Col xs lg="6"><VideoUploadForm /></Col>
+                <Col xs lg="6">
+                <p className='text-center text-danger'>Note: This UI preview is hosted on Vercel. File upload needs a backend server. See the <a href='https://github.com/ameya-shahu/HLS-Streaming-Server-React'>GitHub Repo</a> to set up a local HLS server.</p>
+                <VideoUploadForm /></Col>
             </Row>
             <Row>
                 <Col><hr></hr></Col>
