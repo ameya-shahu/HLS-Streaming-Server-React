@@ -11,7 +11,7 @@ const VideoLib = ({ videoSources }) => {
         }, [])
         .map((item, index)=>{
         return(
-            <Row key={index}>
+            <Row className='justify-content-md-center' key={index}>
                 {
                     item.map((val, idx)=>{
                         return(

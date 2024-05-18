@@ -21,7 +21,7 @@ export const VideoPlayer = (props) => {
         fullscreenToggle: true
         },
         plugins: {
-          httpSourceSelector: { default: "low" }
+          httpSourceSelector: { default: 'auto' }
         },
     sources: [
       {
