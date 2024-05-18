@@ -2,6 +2,8 @@
 
 This project sets up a server for HTTP Live Streaming (HLS) and a frontend interface to upload and stream videos. The backend is built with Node.js and Express, and the frontend is developed using React with Vite. The system requires `ffmpeg` installed on your machine for video processing. 
 
+### Preview
+You can preview the application at [HLS Streaming Server Preview](https://hls-streaming-server-react.vercel.app/) once the server is running.
 
 ## Prerequisites
 
