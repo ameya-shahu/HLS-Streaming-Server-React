@@ -9,10 +9,10 @@ import { exec } from "child_process";
 
 
 const app = express();
-app.use(cors({origin: ['localhost:5173']}));
+app.use(cors({origin: ['localhost:5173', 'hls-streaming-server-react.vercel.app']}));
 
 app.use((req, res, next)=>{
-    res.header('Access-Control-Allow-Origin', "http://localhost:5173");
+    res.header('Access-Control-Allow-Origin', "*");
     res.header("Acess-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
     next();
 });
